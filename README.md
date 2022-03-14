@@ -17,14 +17,14 @@ The objective is to make the pipeline reproducible. For that purpose we use:
 
 ## Code organisation
 
-The pipeline is made of six components each represented by a folder:
-  - get_data: download and log the data
-  - eda: exploratory data analysis. Used for basic cleaning
-  - basic_cleaning: preprocess the raw data
-  - data_check: Regroup tests on our data. This is done using Pytest. 
-  - segregate: split data in train/test
-  - train_random_forest: Fit the random forest. 
-  - evaluate
+The pipeline is made of seven components each represented by a folder:
+  - components/get_data: download and log the data
+  - src/eda: exploratory data analysis. Used for basic cleaning
+  - src/basic_cleaning: preprocess the raw data
+  - src/data_check: Regroup tests on our data. This is done using Pytest. 
+  - components/train_val_test_splits: split data in train/test
+  - src/train_random_forest: Fit the random forest. 
+  - coponents/test_regression_model: evaluate the model
 
 The pipeline as represented by W&B after running the code is as follow:
 ![](images/wnb_pipeline.png)
