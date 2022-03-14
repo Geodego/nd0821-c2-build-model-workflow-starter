@@ -1,0 +1,7 @@
+pandas~=1.2.3
+wandb~=0.10.31
+numpy~=1.22.2
+matplotlib~=3.3.4
+mlflow~=1.14.1
+omegaconf~=2.0.6
+setuptools~=59.8.0
