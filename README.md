@@ -24,7 +24,7 @@ The pipeline is made of seven components each represented by a folder:
   - src/data_check: Regroup tests on our data. This is done using Pytest. 
   - components/train_val_test_splits: split data in train/test
   - src/train_random_forest: Fit the random forest. 
-  - coponents/test_regression_model: evaluate the model
+  - components/test_regression_model: evaluate the model
 
 The pipeline as represented by W&B after running the code is as follow:
 ![](images/wnb_pipeline.png)
